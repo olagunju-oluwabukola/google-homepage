@@ -1,0 +1,62 @@
+*{
+ margin: 10px;
+ padding: 0;
+}
+body{
+ box-sizing: border-box;
+border: 1px solid gold;
+}
+.header{
+ display: flex;
+}
+.link1{
+display: flex;
+}
+ .link1 a{
+  text-decoration: none;
+  color: #000;
+ }
+.link2{
+ display: flex;
+ flex: 4;
+justify-content: end;
+}
+.link2 a{
+ text-decoration: none;
+ color: #000;
+}
+.section2{
+ padding-top: 5em;
+padding-left: 55em;
+}
+.section2 input{
+width: 40em;
+height: 2em;
+background-color: hsl(0, 6%, 93%);
+border: none;
+
+}
+.section2 button{
+ background-color: hsl(0, 6%, 93%);
+ border: none;
+ width: 8em;
+ height: 3em;
+
+}
+footer{
+ 
+ display: flex;
+ background-color: hsl(0, 6%, 93%);
+ margin: 0;
+}
+.foot2 a{
+ text-decoration: none;
+ color: #000;
+}
+.foot1 a{
+ text-decoration: none;
+ color: #000;
+}
+.foot2{
+ padding-left: 92em;
+}
